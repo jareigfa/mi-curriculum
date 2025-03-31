@@ -5,64 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV de Javier</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Barra de navegación -->
-    <nav class="top-nav">
-        <ul>
-            <li><a href="#about">Sobre Mí</a></li>
-            <li><a href="#experience">Experiencia</a></li>
-            <li><a href="#education">Educación</a></li>
-            <li><a href="#certifications">Certificaciones</a></li>
-        </ul>
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container header-content">
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="personal-info">
+                <h1>Javier Reig Fabra</h1>
+                <p class="profession">Desarrollador Front-End Experiencia en gestión de equipos</p>
+            </div>
+            
             <div class="profile-picture">
                 <img src="https://www.dropbox.com/scl/fi/bgc7ymrdxh9tqrcy81rrc/Foto-cv.jpg?rlkey=yhsnn5mc83bg5odx72v70xx12&st=2lt259y9&raw=1" alt="Javier Reig">
             </div>
-            <div class="header-text">
-                <h1>Javier Reig Fabra</h1>
-                <p>Desarrollador Front-End | Experiencia en gestión de equipos</p>
+            
+            <div class="contact-info">
+                <h3>Información de Contacto</h3>
+                <p><strong>Dirección:</strong> Vallgorguina, Barcelona</p>
+                <p><strong>Email:</strong> jareigfa@outlook.com</p>
+                <p><strong>LinkedIn:</strong> linkedin.com/in/jareigfa/</p>
+                <p><strong>Web:</strong> jareigfa.github.io/mi-portafolio/</p>
             </div>
-        </div>
-    </header>
+            
+            <div class="skills">
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>Gestión de equipos</li>
+                    <li>Planificación de recursos</li>
+                    <li>Resolución de conflictos</li>
+                    <li>Desarrollo Front-End</li>
+                    <li>HTML/CSS/JavaScript</li>
+                    <li>GIS y cartografía digital</li>
+                </ul>
+            </div>
+            
+            <div class="languages">
+                <h3>Idiomas</h3>
+                <ul>
+                    <li>Español - Nativo</li>
+                    <li>Catalán - Nativo</li>
+                    <li>Inglés - C1 Advance</li>
+                </ul>
+            </div>
+        </aside>
 
-    <!-- Contenido principal -->
-    <main class="container">
-        <section id="about">
-            <h2>Sobre Mí</h2>
-            <p>
-                Profesional con más de 5 años de experiencia en gestión de equipos, coordinación de operaciones y liderazgo en entornos dinámicos. Especializado en la planificación de recursos, resolución de conflictos y mejora de procesos. Apasionado por el trabajo en equipo y la optimización de resultados en entornos multiculturales.<br><br>
-                Soy un gran entusiasta de la programación. Actualmente estoy cursando estudios de Front-End Web Developer. Estoy siempre en búsqueda de nuevos desafíos y abierto a colaborar en proyectos dentro de este ámbito.
-            </p>
-        </section>
-
-        <section id="experience">
-            <h2>Experiencia Profesional</h2>
-            <div class="experience-item">
-                <h3>Team Manager - Icelandia</h3>
-                <p class="date">jun. 2024 - oct. 2024 · 5 meses | Islandia · Presencial</p>
+        <!-- Main -->
+        <main class="main-content">
+            <section id="about">
+                <h2>Sobre Mí</h2>
                 <p>
-                    Coordinación general de una de las bases de la compañía. Gestión de equipos, contratación de personal, planificación de plantillas, 
-                    resolución de conflictos y toma de decisiones. Trabajo coordinado con departamentos como RRHH, Marketing y Financiero.
+                    Profesional con más de 5 años de experiencia en gestión de equipos, coordinación de operaciones y liderazgo en entornos dinámicos. Especializado en la planificación de recursos, resolución de conflictos y mejora de procesos. Apasionado por el trabajo en equipo y la optimización de resultados en entornos multiculturales.<br><br>
+                    Soy un gran entusiasta de la programación. Actualmente estoy cursando estudios de Front-End Web Developer. Estoy siempre en búsqueda de nuevos desafíos y abierto a colaborar en proyectos dentro de este ámbito.
                 </p>
-                <p class="skills"><strong>Aptitudes:</strong> General Management · Team Management · Work Planning · Task Assignment · Multilingual Competence</p>
-            </div>
-            <div class="experience-item">
-                <h3>Team Manager - Icelandia</h3>
-                <p class="date">dic. 2021 - dic. 2023 · 2 años 1 mes | Islandia · Presencial</p>
-                <p>
-                    Coordinación general de una de las bases de la compañía. Gestión de equipos. Contratación de personal y de planificación plantillas. Resolución de conflictos. Toma de decisiones. Asignación de tareas y establecimiento de plazos. Planificación de reuniones y conferencias. Trabajo coordinado con otros departamentos de la empresa como RRHH, Marketing o Financiero.
-                </p>
-                <p class="skills"><strong>Aptitudes:</strong> General Management · Team Management · Work Planning · Task Assignment · Multilingual Competence</p>
-            </div>
+            </section>
 
-            <!-- Experiencia oculta de inicio -->
-            <div id="more-experience" class="hidden">
+            <section id="experience">
+                <h2>Experiencia Profesional</h2>
+                <div class="experience-item">
+                    <h3>Team Manager - Icelandia</h3>
+                    <p class="date">jun. 2024 - oct. 2024 · 5 meses | Islandia · Presencial</p>
+                    <p>
+                        Coordinación general de una de las bases de la compañía. Gestión de equipos, contratación de personal, planificación de plantillas, 
+                        resolución de conflictos y toma de decisiones. Trabajo coordinado con departamentos como RRHH, Marketing y Financiero.
+                    </p>
+                    <p class="skills"><strong>Aptitudes:</strong> General Management · Team Management · Work Planning · Task Assignment · Multilingual Competence</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Team Manager - Icelandia</h3>
+                    <p class="date">dic. 2021 - dic. 2023 · 2 años 1 mes | Islandia · Presencial</p>
+                    <p>
+                        Coordinación general de una de las bases de la compañía. Gestión de equipos. Contratación de personal y de planificación plantillas. Resolución de conflictos. Toma de decisiones. Asignación de tareas y establecimiento de plazos. Planificación de reuniones y conferencias. Trabajo coordinado con otros departamentos de la empresa como RRHH, Marketing o Financiero.
+                    </p>
+                    <p class="skills"><strong>Aptitudes:</strong> General Management · Team Management · Work Planning · Task Assignment · Multilingual Competence</p>
+                </div>
                 <div class="experience-item">
                     <h3>Shift Manager - Icelandia</h3>
                     <p class="date">nov. 2019 - dic. 2021 · 2 años 2 meses | Islandia · Presencial</p>
@@ -91,7 +107,7 @@
                     <h3>Técnico de Sistemas de Información Geográfica - Conselleria de Medi Ambient</h3>
                     <p class="date">jun. 2011 - dic. 2011 · 7 meses | Valencia · Prácticas</p>
                     <p>
-                        Realización de mapas y aplicaciones personalizadas utilizando Sistemas de Información Geográfica. Tratamiento de información geográfica y espacial. Mantenimiento de bases de datos. Elaboración de informes técnicos en el “Servicio de Infraestructura Verde y Paisaje” asociados a instrumentos de planificación y desarrollo de proyectos con impacto territorial.
+                        Realización de mapas y aplicaciones personalizadas utilizando Sistemas de Información Geográfica. Tratamiento de información geográfica y espacial. Mantenimiento de bases de datos. Elaboración de informes técnicos en el "Servicio de Infraestructura Verde y Paisaje" asociados a instrumentos de planificación y desarrollo de proyectos con impacto territorial.
                     </p>
                     <p class="skills"><strong>Aptitudes:</strong> GIS · ArcGIS · Digital Cartography · Spatial Database</p>
                 </div>
@@ -111,45 +127,38 @@
                     </p>
                     <p class="skills"><strong>Aptitudes:</strong> Physical Geography · Meteorology · Data Analysis · Report Writing</p>
                 </div>
-            </div>
-            
-            <!-- Botón "Ver más" -->
-            <button id="show-more" class="show-more-btn">Ver más</button>
-        </section>
+            </section>
 
-        <section id="education">
-            <h2>Educación</h2>
-            <div class="education-item">
-                <h3>Máster Universitario en Formación del Profesorado - Universidad CEU Cardenal Herrera</h3>
-                <p class="date">2009 - 2010</p>
-            </div>
-            <div class="education-item">
-                <h3>Licenciatura en Geografía - Universitat de València</h3>
-                <p class="date">2003 - 2009</p>
-            </div>
-        </section>
+            <section id="education">
+                <h2>Educación</h2>
+                <div class="education-item">
+                    <h3>Máster Universitario en Formación del Profesorado - Universidad CEU Cardenal Herrera</h3>
+                    <p class="date">2009 - 2010</p>
+                </div>
+                <div class="education-item">
+                    <h3>Licenciatura en Geografía - Universitat de València</h3>
+                    <p class="date">2003 - 2009</p>
+                </div>
+            </section>
 
-        <section id="certifications">
-            <h2>Cursos y Certificaciones</h2>
-            <ul>
-                <li>Introduction to Secure Networking - Microsoft</li>
-                <li>Introduction to Software Engineering - IBM</li>
-                <li>Python for Everybody Specialization - University of Michigan</li>
-                <li>Foundations: Data, Data, Everywhere - Google</li>
-                <li>Introduction to Computers - Microsoft</li>
-                <li>The Data Science Profession - University of London</li>
-                <li>What is Data Science? - IBM</li>
-            </ul>
-        </section>
-    </main>
+            <section id="certifications">
+                <h2>Cursos y Certificaciones</h2>
+                <ul>
+                    <li>Introduction to Secure Networking - Microsoft</li>
+                    <li>Introduction to Software Engineering - IBM</li>
+                    <li>Python for Everybody Specialization - University of Michigan</li>
+                    <li>Foundations: Data, Data, Everywhere - Google</li>
+                    <li>Introduction to Computers - Microsoft</li>
+                    <li>The Data Science Profession - University of London</li>
+                    <li>What is Data Science? - IBM</li>
+                </ul>
+            </section>
+        </main>
+    </div>
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <p>© 2025 Curriculum by jareigfa</p>
-        </div>
+        <p>© 2025 Curriculum by jareigfa</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
