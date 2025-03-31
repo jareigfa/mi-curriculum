@@ -36,7 +36,7 @@ body {
     width: 100%;
     height: auto;
     border-radius: 4px;
-    max-width: 200px;
+    max-width: 150px;
     display: block;
     margin: 0 auto;
 }
@@ -174,24 +174,43 @@ footer {
     }
     
     .profile-picture img {
-        max-width: 150px;
+        max-width: 120px;
     }
 }
 
+/* Mejora impresión */
 @media print {
     body {
         background-color: white;
         font-size: 10pt;
+        line-height: 1.4;
     }
     
     .container {
         box-shadow: none;
-        padding: 15mm;
+        padding: 10mm;
         max-width: 100%;
     }
     
     footer {
         position: fixed;
         bottom: 0;
+    }
+    
+    .experience-item {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+    
+    main.main-content {
+        padding-bottom: 20mm;
+    }
+    
+    .profile-picture img {
+        max-width: 120px;
+    }
+    
+    @page {
+        margin: 15mm;
     }
 }
